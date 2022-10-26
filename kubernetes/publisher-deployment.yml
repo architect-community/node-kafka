@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: example-publisher
-          image: 'devmandy/publisher:latest'
+          image: '<your_dockerhub_account>/publisher:latest'
           imagePullPolicy: Always
           env:
             - name: ENVIRONMENT

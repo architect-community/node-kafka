@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: example-subscriber
-          image: 'devmandy/subscriber:latest'
+          image: '<your_dockerhub_account>/subscriber:latest'
           imagePullPolicy: Always
           env:
             - name: ENVIRONMENT
